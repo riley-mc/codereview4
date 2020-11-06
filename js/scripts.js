@@ -29,22 +29,16 @@ Pizza.prototype.getPrice = function() {
 });
 
 
-
 function generateOrder()  {
   let size = $("input[name=size]:checked").val();
   let crust = $("input[name=crust]:checked").val();
   let sauce = $("input[name=sauce]:checked").val();
   let toppings = []
-  $("input[name=topping")checked").each(function()  {
+  $("input[name=topping]:checked").each(function() {
     toppings.push($(this).val());
   });
   
-}
-
-
-
-
-
+};
 
 
 
