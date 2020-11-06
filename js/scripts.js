@@ -26,7 +26,7 @@ Pizza.prototype.getPrice = function() {
   this.price += this.toppings.length;
   console.log(this.toppings.length);
   return this.price;
-});
+};
 
 
 function generateOrder()  {
@@ -37,7 +37,10 @@ function generateOrder()  {
   $("input[name=topping]:checked").each(function() {
     toppings.push($(this).val());
   });
-  
+  let myPizza = new Pizza(size, crust, sauce, toppings);
+  myPizza.getPrice();
+  let price = myPizza.getPrice();
+  return myPizza;
 };
 
 
@@ -49,7 +52,8 @@ $(document).ready(function(){
     $("order").empty();
     $("#pizza").toggle();
     $("#output").show();
+    var myPizza = generateOrder();
+    $('#order').append()
 
-  });
   });
 });
