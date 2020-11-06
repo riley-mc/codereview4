@@ -7,11 +7,21 @@ function Pizza(size, crust, sauce, toppings)  {
   this.price = 0;
 }
 
+Pizza.prototype.getPrice = function() {
+  if (this.size === "sm") {
+    this.price = 10;
+  } else if (this.size === "md") {
+    this.price = 14;
+  } else if (this.size === "lrg") {
+    this.price = 18;
+  };
+}
 
 
 
-
-
+function generateOrder()  {
+  let size = $("input[name=size]:checked").val();
+}
 
 
 
@@ -22,10 +32,11 @@ function Pizza(size, crust, sauce, toppings)  {
 
 // User Logic
 $(document).ready(function(){
-  $("eat").click(function() {
-    $("form#pizza").show();
-    $("#eat").toggle();
   $("form#pizza").submit(function(event)  {
+    event.preventDefault();
+    $("order").empty();
+    $("#pizza").toggle();
+    $("#output").show();
 
   });
   });
