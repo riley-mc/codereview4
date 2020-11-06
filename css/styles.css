@@ -1,3 +1,40 @@
+html body {
+  background-color: rgba(0, 0, 0, 0.932);
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  color: rgba(233, 229, 229, 0.986);
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-size: 115px;
+}
+
+.col-md-4 {
+  text-align: center;
+}
+
+#yourOrder {
+  color: rgb(150, 56, 56);
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 14px;
+}
+
+span {
+  color: orangered;
+}
+
+
+
+
 /* #pizza {
   display: none;
 }
