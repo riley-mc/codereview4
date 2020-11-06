@@ -3,7 +3,7 @@
 #### _JavaScript, JQuery, For Loop and Array Week 4 Epicodus 11/6/2020_
 
 ## Description
-This is a Pizza Parlor website using constructors and prototypes to allow the user to select differnt toppings and build their own cusom pizza. 
+This is a Pizza Parlor website using constructors and prototypes to allow the user to select different toppings and build their own custom pizza. 
 
 
 
@@ -11,8 +11,11 @@ This is a Pizza Parlor website using constructors and prototypes to allow the us
 
 | Behavior | Input | Output |
 |------------------------|-----------------|---------------------|
-| 
-
+| The user selects size of pizza from list determining starting price | Medium | Start building myOrder with Medium and starting price |
+| The use selects the type of crust they would like from a list | user clicks sourdough and its added to myOrder |
+| The user selects base sauce | Marinara | user clicks marinara and it is added to myOrder |
+| The user selects multiple toppings from a check list | Pepperoni, olives, mushrooms | 
+| The use confirms order and it is read back after submittingl | User clicks Place Order | Full myOrder is complete with size, crust, sauce, and toppings |
 
 ## Setup/Installation Requirements
 
