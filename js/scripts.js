@@ -5,7 +5,6 @@ function Pizza(size, crust, sauce, toppings)  {
   this.sauce = sauce;
   this.toppings = toppings;
   this.price = 0;
-  console.log(this);
 }
 
 Pizza.prototype.getPrice = function() {
@@ -53,7 +52,7 @@ $(document).ready(function(){
     $("#pizza").toggle();
     $("#output").show();
     var myPizza = generateOrder();
-    $('#order').append()
-
+    $('#order').append(`<p><span>Size:</span> ${myPizza.size}</p>`).append(`<p><span>Crust:</span> ${myPizza.crust}</p>`).append(`<p><span>Sauce:</span> ${myPizza.sauce}</p>`).append(`<p><span>Toppings:</span> ${myPizza.toppings}</p>`).append(`<p><span>Order Total:</span> ${myPizza.price}</p>`)
+    $("#order").text();
+    });
   });
-});

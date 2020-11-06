@@ -12,10 +12,11 @@ This is a Pizza Parlor website using constructors and prototypes to allow the us
 | Behavior | Input | Output |
 |------------------------|-----------------|---------------------|
 | The user selects size of pizza from list determining starting price | Medium | Start building myOrder with Medium and starting price |
-| The use selects the type of crust they would like from a list | user clicks sourdough and its added to myOrder | Sourdough is added to myOrder and price |
-| The user selects base sauce | user clicks marinara and it is added to myOrder | Marinara is added to myOrder and price |
-| The user selects multiple toppings from a check list | checks Pepperoni, olives, mushrooms | Pepperoni, olives, musshrooms added to myOrder |
+| The use selects the type of crust they would like from a list | user clicks sourdough and its added to myOrder | Sourdough is added to myPizza and price |
+| The user selects base sauce | user clicks marinara and it is added to myPizza | Marinara is added to myOrder and price |
+| The user selects multiple toppings from a check list | checks Pepperoni, olives, mushrooms | Pepperoni, olives, musshrooms added to myPizza |
 | The use confirms order and it is read back after submittingl | User clicks Place Order | Full myOrder is complete with size, crust, sauce, and toppings |
+
 
 ## Setup/Installation Requirements
 
