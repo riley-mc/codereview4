@@ -47,10 +47,6 @@ function generateOrder()  {
 
 
 
-
-
-
-
 // User Logic
 $(document).ready(function(){
   $("form#pizza").submit(function(event)  {

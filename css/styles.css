@@ -1,6 +1,6 @@
 html body {
-  background-color: rgba(0, 0, 0, 0.932);
-  font-size: 18px;
+  background-color: rgba(0, 0, 0, 0.74);
+  font-size: 22px;
   font-family: 'Raleway', sans-serif;
   color: rgba(233, 229, 229, 0.986);
   text-align: center;
@@ -10,10 +10,6 @@ h1 {
   font-family: 'Raleway', sans-serif;
   text-align: center;
   font-size: 115px;
-}
-
-.col-md-4 {
-  text-align: center;
 }
 
 #yourOrder {
@@ -32,13 +28,11 @@ span {
   color: orangered;
 }
 
-
-
-
-/* #pizza {
-  display: none;
-}
-
 #output {
   display: none;
-} */
+  text-align: center;
+}
+
+hr  {
+  border-radius: 15px;
+}

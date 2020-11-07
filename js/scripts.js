@@ -51,8 +51,8 @@ $(document).ready(function(){
     $("order").empty();
     $("#pizza").toggle();
     $("#output").show();
-    var myPizza = generateOrder();
-    $('#order').append(`<p><span>Size:</span> ${myPizza.size}</p>`).append(`<p><span>Crust:</span> ${myPizza.crust}</p>`).append(`<p><span>Sauce:</span> ${myPizza.sauce}</p>`).append(`<p><span>Toppings:</span> ${myPizza.toppings}</p>`).append(`<p><span>Order Total:</span> ${myPizza.price}</p>`)
+    let myPizza = generateOrder();
+    $('#order').append(`<p><span>Size:</span> ${myPizza.size}</p>`).append(`<p><span>Crust:</span> ${myPizza.crust}</p>`).append(`<p><span>Sauce:</span> ${myPizza.sauce}</p>`).append(`<p><span>Toppings:</span> ${myPizza.toppings}</p>`).append(`<p><span>Order Total:$</span> ${myPizza.price}</p>`)
     $("#order").text();
     });
   });
