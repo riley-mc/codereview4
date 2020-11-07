@@ -37,6 +37,8 @@ _Go to my GitHub repository here, {{[https://github.com/riley-mc/codereview4](ht
 
 ## Known Bugs
 
+Small bug where I can't figure out how to display the "$" with the total cost output. I used a sloppy cheater way and wrote it straight into the javascript. Doesn't look great.
+
 
 ## Support or Contact information
 
