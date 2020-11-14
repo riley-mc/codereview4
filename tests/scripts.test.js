@@ -24,27 +24,8 @@ Pizza.prototype.getPrice = function() {
     this.price += 3;
   }
   this.price += this.toppings.length;
-  console.log(this.toppings.length);
   return this.price;
 };
-
-
-
-function generateOrder()  {
-  let size = $("input[name=size]:checked").val();
-  let crust = $("input[name=crust]:checked").val();
-  let sauce = $("input[name=sauce]:checked").val();
-  let toppings = []
-  $("input[name=topping]:checked").each(function() {
-    toppings.push($(this).val());
-  });
-  let myPizza = new Pizza(size, crust, sauce, toppings);
-  myPizza.getPrice();
-  let price = myPizza.getPrice();
-  return myPizza;
-};
-
-
 
 
 // User Logic
@@ -59,3 +40,17 @@ $(document).ready(function(){
     $("#order").text();
     });
   });
+
+function generateOrder()  {
+  let size = $("input[name=size]:checked").val();
+  let crust = $("input[name=crust]:checked").val();
+  let sauce = $("input[name=sauce]:checked").val();
+  let toppings = []
+  $("input[name=topping]:checked").each(function() {
+    toppings.push($(this).val());
+  });
+  let myPizza = new Pizza(size, crust, sauce, toppings);
+  myPizza.getPrice();
+  let price = myPizza.getPrice();
+  return myPizza;
+};
