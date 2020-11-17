@@ -24,7 +24,6 @@ Pizza.prototype.getPrice = function() {
     this.price += 3;
   }
   this.price += this.toppings.length;
-  return this.price;
 };
 
 
@@ -51,6 +50,5 @@ function generateOrder()  {
   });
   let myPizza = new Pizza(size, crust, sauce, toppings);
   myPizza.getPrice();
-  let price = myPizza.getPrice();
   return myPizza;
 };
